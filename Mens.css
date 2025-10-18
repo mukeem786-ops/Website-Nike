@@ -1,0 +1,1258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main-nav{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 98.9vw;
+}
+
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40%;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.bottom-nav{
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+
+.jordan-logo{
+    width: 17%;
+    height: 90%;
+}
+
+.converse-logo{
+    width: 17%;
+    height: 90%;
+}
+
+.main-logo-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+    gap: 1.5rem;
+}
+
+.jordan-logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.converse-logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.top-nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    gap: 1rem;
+
+}
+
+.top-nav-links a{
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+.top-nav-links a:first-child{
+    border: 0px;
+}
+
+.nikelogo-nav{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+    
+}
+
+.nikelogo-nav a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-left: 1.7rem;
+}
+ 
+.nikelogo-nav img{
+    width: 65%;
+    object-fit: cover;
+}
+
+.btm-nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    gap: 1rem;
+}
+
+.btm-nav-links a{
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: Large;
+}
+
+.btm-nav-icons{
+    display: flex;
+    width:25%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btm-nav-icons img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.men-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+
+}
+
+
+.men-nav a{
+    text-decoration: none; 
+    color: black;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-left: 1rem;
+    font-size: 1rem;
+    
+}
+
+.men-nav-anchor{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.men-nav-head{
+       display: flex;
+    align-self: start;
+    padding-left: 2rem;
+    font-weight: 100;
+    width: 10%;
+    height: 100%;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    
+}
+
+
+.sale-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 25vh;
+    width: 98.9vw;
+    background-color: rgb(236, 234, 234);
+
+}
+
+.sale-div > div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.sale-div a{
+    color: black;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+
+
+.main-image{
+    display: flex;
+    width: 98.9vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.main-image img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.main-img-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-img-text h1{
+    font-family: Nike Futura ND;
+    font-size: 5rem;
+}
+
+.main-img-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
+.main-img-text button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 1rem;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 6%;
+    font-weight: bold;
+    height: 5vh;
+}
+
+
+
+
+
+
+
+
+.grid-images{
+    display: grid;
+    padding-inline: 3rem;
+    margin-top: 1rem;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.grid-images > div{
+    position: relative;
+    display: flex;
+}
+
+.grid-images > div > div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    color: white;
+    top: 85%;
+    left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-images > div > div > button{
+    padding: 0.7rem;
+    border-radius: 2rem;
+    border: 0px;
+    background-color: white;
+    color: black;  
+    
+}
+
+.grid-images > div > div > button:hover{
+    background-color: rgb(218, 213, 213);
+    cursor: pointer;
+}
+
+
+
+.grid-images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.shop-by-icon{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 98vw;
+    height: 30vw;
+    margin-top: 4rem;
+}
+
+.sbi-heading h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+.sbi-grid{
+    display: grid;
+    grid-auto-columns: 30vw;
+    gap: 2rem;
+    height: 70vh;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 2rem;
+}
+
+.sbi-grid > div > img{
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.footer-box{
+    width: 98.9vw;
+    height: 50vh;
+}
+
+.footer-links{
+    display: flex;
+    height: 100%;
+    width: 67%;
+    padding-top: 3rem;
+}
+
+.footer-links > div{
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    height: 100%;
+}
+
+
+
+.footer-links > div{
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    height: 100%;
+    padding-left: 2rem;
+}
+
+
+.footer-links > div h1{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1rem;
+}
+
+.footer-links > div a{
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:  rgb(121, 121, 121);
+    font-weight: 550;
+    padding-top: 1rem;
+
+}
+
+
+.footer-text{
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    width: 98.9vw;
+    padding-left: 1.5rem;
+}
+
+.footer-text h1{
+    font-size: 0.9rem;
+    color:  rgb(121, 121, 121);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-text a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color:  rgb(121, 121, 121);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-inline: 1rem;
+
+}
+
+
+.btm-nav-icons input{
+    background-color: #f5f5f5;
+    padding-left: 3rem;
+    display: inline-block;
+    border: 0px;
+    border-radius: 20px;
+    height: 2rem;
+    width: 90%;
+
+}
+
+.search-input{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.search-input img{
+    width: 12%;
+    object-fit: cover;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50% , -50%)
+
+}
+
+.search{
+    width: 55%;
+}
+
+
+
+@media(max-width: 800px) {
+    .grid-images > div > div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: absolute;
+        color: white;
+        top: 75%;
+        left: 3%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .footer-text{
+        margin-top: 2rem;
+    }
+
+    .main-nav{
+       
+        width: 100vw;
+    }
+
+    .sale-div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 25vh;
+        width: 100vw;
+        background-color: rgb(236, 234, 234);
+    
+    }
+
+    .main-image{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .search-input{
+        display: none;
+    }
+
+    .top-nav-links a{
+        font-size: 0.7rem;
+    }
+
+    .nikelogo-nav img{
+        width: 100%;
+        object-fit: cover;
+        
+    }
+
+    
+}
+
+@media (max-width: 700px) {
+    .grid-images > div > div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: absolute;
+        color: white;
+        top: 60%;
+        left: 3%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .footer-text{
+        margin-top: 4rem;
+    }
+
+    .main-nav{
+       
+        width: 100vw;
+    }
+
+    .sale-div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 25vh;
+        width: 100vw;
+        background-color: rgb(236, 234, 234);
+    
+    }
+
+    .main-image{
+        display: flex;
+        width: 100vw;
+        height: 85vh;
+        flex-direction: column;
+    }
+
+    .search-input{
+        display: none;
+    }
+
+    .top-nav-links a{
+        font-size: 0.7rem;
+    }
+
+    .nikelogo-nav img{
+        width: 100%;
+        object-fit: cover;
+        
+    }
+
+    .top-nav-links{
+        display: none;
+    }
+
+    .btm-nav-icons{
+        margin-right: 1rem;
+    }
+
+    .main-logo-nav{
+        width: 15%;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    .grid-images > div > div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: absolute;
+        color: white;
+        top: 67%;
+        left: 3%;
+        font-size: 0.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .footer-text{
+        margin-top: 4rem;
+    }
+
+    .main-nav{
+       
+        width: 100vw;
+    }
+
+    .sale-div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 25vh;
+        width: 100vw;
+        background-color: rgb(236, 234, 234);
+    
+    }
+
+    .main-image{
+        display: flex;
+        width: 100vw;
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .search-input{
+        display: none;
+    }
+
+    .top-nav-links a{
+        font-size: 0.7rem;
+    }
+
+    .nikelogo-nav img{
+        width: 120%;
+        object-fit: contain;
+        
+    }
+
+    .top-nav-links{
+        display: none;
+    }
+
+    .btm-nav-icons{
+        margin-right: 1rem;
+    }
+
+    .main-logo-nav{
+        width: 15%;
+    }
+
+    .btm-nav-links{
+        font-size: 0.6rem;
+    }
+
+    .main-img-text button{
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        font-size: 1rem;
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 10%;
+        font-weight: bold;
+        height: 5vh;
+    }
+}
+
+
+    @media (max-width: 600px) {
+    .grid-images > div > div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: absolute;
+        color: white;
+        top: 67%;
+        left: 3%;
+        font-size: 0.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .footer-text{
+        margin-top: 4rem;
+    }
+
+    .main-nav{
+       
+        width: 100vw;
+    }
+
+    .sale-div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 25vh;
+        width: 100vw;
+        background-color: rgb(236, 234, 234);
+    
+    }
+
+    .main-image{
+        display: flex;
+        width: 100vw;
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .search-input{
+        display: none;
+    }
+
+    .top-nav-links a{
+        font-size: 0.7rem;
+    }
+
+    .nikelogo-nav img{
+        width: 120%;
+        object-fit: contain;
+        
+    }
+
+    .top-nav-links{
+        display: none;
+    }
+
+    .btm-nav-icons{
+        margin-right: 1rem;
+    }
+
+    .main-logo-nav{
+        width: 15%;
+    }
+
+    .btm-nav-links{
+        font-size: 0.6rem;
+    }
+
+    .main-img-text button{
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        font-size: 1rem;
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 10%;
+        font-weight: bold;
+        height: 5vh;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .grid-images > div > div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: absolute;
+        color: white;
+        top: 67%;
+        left: 3%;
+        font-size: 0.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .footer-text{
+        margin-top: 10rem;
+    }
+
+    .main-nav{
+       
+        width: 100vw;
+    }
+
+    .sale-div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 25vh;
+        width: 100vw;
+        background-color: rgb(236, 234, 234);
+    
+    }
+
+    .main-image{
+        display: flex;
+        width: 100vw;
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .search-input{
+        display: none;
+    }
+
+    .top-nav-links a{
+        font-size: 0.7rem;
+    }
+
+    .nikelogo-nav img{
+        width: 190%;
+        object-fit: contain;
+        position: relative;
+    }
+
+    .top-nav-links{
+        display: none;
+    }
+
+    .btm-nav-icons{
+        margin-right: 1rem;
+    }
+
+    .main-logo-nav{
+        width: 20%;
+    }
+
+    .btm-nav-links a{
+        font-size: 0.89rem;
+    }
+
+    .main-img-text button{
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        font-size: 1rem;
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 10%;
+        font-weight: bold;
+        height: 5vh;
+    }
+
+       
+
+}
+
+@media (max-width: 400px) {
+    .grid-images > div > div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: absolute;
+        color: white;
+        top: 67%;
+        left: 3%;
+        font-size: 0.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .grid-images{
+        height: 30rem;
+    }
+
+    .grid-images > div > div button{
+        width: 5rem;
+        height: 2rem;
+        font-size: 0.7rem;
+    }
+
+
+    .footer-text{
+        margin-top: 10rem;
+    }
+
+    .main-nav{
+       
+        width: 100vw;
+    }
+
+    .sale-div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 25vh;
+        width: 100vw;
+        background-color: rgb(236, 234, 234);
+    
+    }
+
+    .main-image{
+        display: flex;
+        width: 100vw;
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .search-input{
+        display: none;
+    }
+
+    .top-nav-links a{
+        font-size: 0.6rem;
+    }
+
+    .nikelogo-nav img{
+        width: 4rem;
+        object-fit: contain;
+    }
+
+    .top-nav-links{
+        display: none;
+    }
+
+    .btm-nav-icons{
+        margin-right: 0.5rem;
+    }
+
+    .main-logo-nav{
+        width: 20%;
+    }
+
+    .btm-nav-links a{
+        font-size: 0.7rem;
+    }
+
+   .heart{
+    display: none;
+   }
+   
+    .main-img-text button{
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        font-size: 1rem;
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 15%;
+        font-weight: bold;
+        height: 5vh;
+    }
+
+       
+
+} 
+
+ @media (max-width: 300px) {
+    .grid-images > div > div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: absolute;
+        color: white;
+        top: 67%;
+        left: 3%;
+        font-size: 0.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .grid-images{
+        height: 30rem;
+    }
+
+    .grid-images > div > div button{
+        width: 5rem;
+        height: 2rem;
+        font-size: 0.7rem;
+    }
+
+
+    .footer-text{
+        margin-top: 10rem;
+    }
+
+    .footer-text a{
+        font-size: 0.5rem;
+    }
+    .footer-text h1{
+        font-size: 0.5rem;
+    }
+
+    .footer-box{
+        width: 100%;
+        
+    }
+
+    .footer-link-company a{
+        font-size: 0.3;
+    }
+
+    .footer-links{
+        width: 97%;
+        
+    }
+
+  
+    .main-nav{
+       
+        width: 100vw;
+    }
+
+    .sale-div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 25vh;
+        width: 100vw;
+        background-color: rgb(236, 234, 234);
+    
+    }
+
+    .sale-div p {
+        font-size: 1rem;
+    
+    }
+
+    .main-image{
+        display: flex;
+        width: 100vw;
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .search-input{
+        display: none;
+    }
+
+    .top-nav-links a{
+        font-size: 0.6rem;
+    }
+
+    .nikelogo-nav img{
+        width: 3rem;
+        object-fit: contain;
+    }
+
+    .nikelogo-nav{
+        width: 5rem;
+    }
+
+    .top-nav-links{
+        display: none;
+    }
+
+    .btm-nav-icons{
+        margin-right: 0.5rem;
+    }
+
+    .main-logo-nav{
+        width: 30%;
+    }
+
+    .btm-nav-links a{
+        font-size: 0.7rem;
+        display: none;
+    }
+
+   .heart{
+    display: none;
+   }
+
+   .main-img-text{
+justify-content: center;
+}
+   
+    .main-img-text button{
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        font-size: 1rem;
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 15%;
+        font-weight: bold;
+        height: 5vh;
+    }
+
+
+    .men-nav p{
+        font-size: 1rem;
+    }
+
+    .men-nav-anchor a{
+        font-size: 1rem;
+    }
+
+    
+       
+
+} 
+
+
+ @media (max-width: 200px) {
+    .grid-images > div > div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: absolute;
+        color: white;
+        top: 67%;
+        left: 3%;
+        font-size: 0.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .grid-images{
+        height: 30rem;
+    }
+
+    .grid-images > div > div button{
+        width: 5rem;
+        height: 2rem;
+        font-size: 0.7rem;
+    }
+
+
+    .footer-text{
+display: none;
+    }
+
+
+    .footer-box{
+        width: 100%;
+        
+    }
+
+    .footer-links{
+       display: none;
+        
+    }
+
+  
+    .main-nav{
+       
+        width: 100vw;
+    }
+
+    .sale-div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 25vh;
+        width: 100vw;
+        background-color: rgb(236, 234, 234);
+    
+    }
+
+    .sale-div p {
+        font-size: 1rem;
+    
+    }
+
+    .main-image{
+        display: flex;
+        width: 100vw;
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .search-input{
+        display: none;
+    }
+
+    .top-nav-links a{
+        font-size: 0.6rem;
+    }
+
+    .nikelogo-nav img{
+        width: 3rem;
+        object-fit: contain;
+    }
+
+    .nikelogo-nav{
+        width: 5rem;
+    }
+
+    .top-nav-links{
+        display: none;
+    }
+
+    .btm-nav-icons{
+        margin-right: 0.5rem;
+    }
+
+    .main-logo-nav{
+        width: 30%;
+    }
+
+    .btm-nav-links a{
+        font-size: 0.7rem;
+        display: none;
+    }
+
+   .heart{
+    display: none;
+   }
+
+   .main-img-text{
+justify-content: center;
+}
+   
+    .main-img-text button{
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        font-size: 1rem;
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 15%;
+        font-weight: bold;
+        height: 5vh;
+    }
+
+
+    .men-nav{
+        display: none;
+    }
+
+    .men-nav p{
+        font-size: 1rem;
+    }
+
+    .men-nav-anchor a{
+        font-size: 0.7rem;
+        align-items: center;
+    }
+
+    
+       .shop-by-icon{
+        height: 10rem;
+       }
+
+       .main-image{
+        height: 10rem;
+       }
+
+       
+
+       
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
